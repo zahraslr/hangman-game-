@@ -1,0 +1,66 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .alphabet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .alphabet div {
+  border: 2px solid #338a46;
+  margin: 5px;
+  padding: 10px;
+  color: #10551f;
+}
+
+main .alphabet div:hover {
+  color: #2c2c2c;
+  background-color: #23d30c;
+}
+
+main .alphabet div.used {
+  background-color: rgba(143, 143, 143, 0.356);
+}
+
+main .img {
+  margin-top: 50px;
+}
+
+main .clue {
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+}
+
+main .clue p {
+  margin: 0;
+}
+
+main .game-over {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

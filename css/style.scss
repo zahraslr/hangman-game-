@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .alphabet{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        div{
+            border: 2px solid rgb(51, 138, 70);
+            margin: 5px;
+            padding: 10px;
+            color:rgb(16, 85, 31) ;
+            &:hover{
+                color:  rgb(44, 44, 44);
+                background-color: rgb(35, 211, 12);
+            }
+        }
+        div.used{
+            background-color: rgba(143, 143, 143, 0.356);
+        }
+    }
+    .img{
+        margin-top: 50px;
+    }
+    .clue{
+        font-size: 3rem;
+        letter-spacing: 0.5rem;
+        p{
+            margin: 0;
+        }
+    }
+    .game-over{
+        display: none;
+    }
+
+}
